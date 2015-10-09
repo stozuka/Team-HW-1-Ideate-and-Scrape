@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/rg'
 require_relative '../lib/scrape'
-​
+
 describe 'test for code school' do
   before do
     cs = SiteScraper.new
